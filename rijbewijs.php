@@ -3,8 +3,9 @@
     $leeftijd = readline();
     $requirmend = 16.5;
 
-    if ($leeftijd > $requirmend){
+    if($leeftijd > $requirmend) {
         echo "je mag beginnen met rijlessen";
-    } else{
+    }
+    if($leeftijd < $requirmend) {
         echo "helaas, je  mag nog niet beginnen met je rijlessen";
     }
